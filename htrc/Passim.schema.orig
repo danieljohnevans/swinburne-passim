@@ -1,0 +1,1 @@
+{"fields":[{"metadata":{},"name":"id","nullable":true,"type":"string"},{"metadata":{},"name":"series","nullable":true,"type":"string"},{"metadata":{},"name":"text","nullable":true,"type":"string"}],"type":"struct"}
