@@ -28,6 +28,13 @@ share/python-wheels/
 MANIFEST
 data/
 passim_in.json
+passim-output/
+htrc_out/
+passim_output*/
+passim_in*.json
+explore-passim-output.ipynb
+outs.json/
+htrc_concatenated.zip
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.

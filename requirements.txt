@@ -3,3 +3,4 @@ tqdm
 pandas
 matplotlib
 jupyter
+ht_text_prep

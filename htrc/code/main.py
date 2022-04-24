@@ -10,7 +10,7 @@ NUM_CORES = multiprocessing.cpu_count()
 
 
 data_in = os.path.join("..","data","sgml")
-data_out = os.path.join("..","data","txt")
+data_out = os.path.join("..","data","6")
 data_ref = os.path.join("..","ref", "swinburne_poems_1904_txt")
 passim_output_path = os.path.join("..","passim_in.json")
 
@@ -46,7 +46,7 @@ def TXT_to_passimJSON(path_in,final_json):
 		f = open(final_json,"w")
 
 	#print(path_in)
-	with open(path_in) as f_in:
+	with open(path_in, errors='ignore') as f_in:
 		id_ = os.path.basename(path_in).replace(".txt","")
 		series = "book"
 		text = " ".join(f_in.read().replace("\n"," ").replace('"',"'").replace("\\", "").split())
